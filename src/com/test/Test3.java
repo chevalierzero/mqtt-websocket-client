@@ -21,8 +21,8 @@ public class Test3{
 				public void run() {
 					
 					String clientId = "guest" + UUID.randomUUID();
-			    	String userName = "ntguest";
-			    	String password = "xiaoneng123";
+			    	String userName = "username";
+			    	String password = "password";
 			    	MQTT mqtt = new MQTT("ws://xxx.xxx.xxx.xxx:xx/mqtt");
 			    	mqtt.setClientId(clientId);
 			    	mqtt.setUserName(userName);
